@@ -19,7 +19,28 @@ INSERT INTO chords (chord_name, notation, variation)
         ('D minor', 'Dm', 1),
         ('E minor', 'Em', 1),
         ('F minor', 'Fm', 1),
-        ('G minor', 'Gm', 1);
+        ('G minor', 'Gm', 1),
+        ('A diminised', 'Adim', 1),
+        ('B diminised', 'Bdim', 1),
+        ('C diminised', 'Cdim', 1),
+        ('D diminised', 'Ddim', 1),
+        ('E diminised', 'Edim', 1),
+        ('F diminised', 'Fdim', 1),
+        ('G diminised', 'Gdim', 1),
+        ('A major', 'A', 2),
+        ('B major', 'B', 2),
+        ('C major', 'C', 2),
+        ('D major', 'D', 2),
+        ('E major', 'E', 2),
+        ('F major', 'F', 2),
+        ('G major', 'G', 2),
+        ('A minor', 'Am', 2),
+        ('B minor', 'Bm', 2),
+        ('C minor', 'Cm', 2),
+        ('D minor', 'Dm', 2),
+        ('E minor', 'Em', 2),
+        ('F minor', 'Fm', 2),
+        ('G minor', 'Gm', 2);
 
 COMMIT;
 
