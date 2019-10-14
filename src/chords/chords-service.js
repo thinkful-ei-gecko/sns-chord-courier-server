@@ -7,7 +7,8 @@ const ChordsService = {
       .select('*');
   },
   getChordsByKey(db, key) {
-    const sequence = sequenceHelper.majorSequence(key);
+    const sequence = sequenceHelper.generateMajorSequence(key);
+    console.log(sequence);
     return db
       .from('chords')
       .select('*')

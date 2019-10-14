@@ -7,7 +7,7 @@ const sequenceHelper = {
   pattern: 'w w h w w w h',
 
   // bug generating sequences that contain a flat or sharp
-  majorSequence(key) {
+  generateMajorSequence(key) {
     const noteList = [...this.notes];
     const noteIndex = noteList.findIndex((note) => note === key);
     let seq = ['', 'm', 'm', '', '', 'm', 'dim'];
@@ -26,11 +26,13 @@ const sequenceHelper = {
     return seq;
   },
 
+  // swapFlatForSharp(sequence) {
+  //   sequence = sequence.map()
+  // },
+
   // minorSequence(key) {
 
   // },
 };
-
-console.log(sequenceHelper.notes.findIndex((note) => note === 'E'));
 
 module.exports = sequenceHelper;
