@@ -3,5 +3,5 @@ CREATE TABLE chords (
     chord_name TEXT NOT NULL,
     notation TEXT NOT NULL,
     variation NUMERIC NOT NULL,
-    image TEXT
+    chord_code TEXT
 );

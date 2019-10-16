@@ -8,7 +8,6 @@ const ChordsService = {
   },
   getChordsByKey(db, key) {
     const sequence = sequenceHelper.chords[key];
-    console.log(sequence);
     return db
       .from('chords')
       .select('*')
