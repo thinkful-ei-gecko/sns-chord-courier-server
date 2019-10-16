@@ -1,0 +1,3 @@
+ALTER TABLE chords
+  ADD COLUMN
+    tag TEXT;

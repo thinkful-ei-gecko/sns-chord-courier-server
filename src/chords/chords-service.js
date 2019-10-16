@@ -19,6 +19,22 @@ const ChordsService = {
       .orWhere('notation', '=', sequence[5])
       .orWhere('notation', '=', sequence[6]);
   },
+  getChordsByKeyAlt(db, key) {
+    return db
+      .from('chords_keys')
+      .select('*')
+      .where('chord_keys.tonic', '=', key)
+      .join('chords', function () {
+        this
+          .on('chords.notation', '=', 'chord_keys.tonic')
+          .orOn('chord.notation', '=', 'chord_keys.second')
+          .orOn('chord.notation', '=', 'chord_keys.third')
+          .orOn('chord.notation', '=', 'chord_keys.fourth')
+          .orOn('chord.notation', '=', 'chord_keys.fifth')
+          .orOn('chord.notation', '=', 'chord_keys.sixth')
+          .orOn('chord.notation', '=', 'chord_keys.seventh');
+      });
+  },
 };
 
 module.exports = ChordsService;
