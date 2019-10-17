@@ -28,27 +28,3 @@ const ChordsService = {
 };
 
 module.exports = ChordsService;
-
-
-/*
-I–IV–V–V
-I–I–IV–V
-I–IV–I–V
-I–IV–V–IV
-
---I–ii–V
-
-jazz
---ii–V–I --Dm7 G7 Cmaj7
-
-I–vi–ii–V -- C Am7 Dm7 G7
-III-vi-ii-V
-
-rock/pop
-I–V–vi–IV
-vi-IV-I-V
-I-V-vi-V
-I-vi-IV-V
-I–vi–IV–V
-
-*/
