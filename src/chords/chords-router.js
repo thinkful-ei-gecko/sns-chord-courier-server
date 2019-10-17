@@ -33,4 +33,18 @@ chordsRouter
       .catch(next);
   });
 
+chordsRouter
+  .route('/:key/:progression')
+  .get((req, res, next) => {
+    // eslint-disable-next-line prefer-const
+    let { key, progression } = req.params;
+    progression = progression.split('-');
+
+    ChordsService.getChordProgressionByKey(req.app.get('db'), key, ...progression)
+      .then((chords) => {
+        res.json(chords);
+      })
+      .catch(next);
+  });
+
 module.exports = chordsRouter;
