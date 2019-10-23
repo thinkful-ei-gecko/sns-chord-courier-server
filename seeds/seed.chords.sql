@@ -30,7 +30,7 @@ INSERT INTO chords (chord_name, notation, variation, chord_code, tag)
         ('F# diminished', 'F#dim', 1, '0,1,2,3,1,x,x', 'diminished'),
         ('G# diminished', 'G#dim', 1, '4,0,1,2,0,x,x', 'diminished'),
         ('C# minor', 'C#m', 1, '4,x,0,2,2,1,x', 'basic'),
-        ('F# minor', 'F#m', 1, '2,0,2,2,0,0,0', 'basic'),
+        ('F# minor', 'F#m', 1, '2,0,2,2,0,0,0,b', 'basic'),
         ('B7', 'B', 2, '0,x,1,0,1,o,1', 'basic, open, seventh'),
         ('Badd11', 'B', 3, '7,0,2,2,1,o,o', 'basic, open'),
         ('E Major', 'E', 2, '6,x,1,0,3,o,o', 'basic, open'),
