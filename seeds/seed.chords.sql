@@ -66,8 +66,8 @@ INSERT INTO chords (chord_name, notation, variation, chord_code, tag)
         ('G5', 'G', 6, '3,0,2,2,x,x,x', 'basic, rock, blues, power chord'),
         ('C5', 'C', 5, '3,0,2,2,x,x,x', 'basic, rock, blues, power chord'),
         ('A6/9', 'A', 5, '0,x,o,3,1,o,o', 'intermediate, rock, blues'),
-        ('Dadd9', 'D', 3, '5,x,0,2,2,0,0,b', 'intermediate, rock, blues'),
-        ('D5/E', 'D', 4, '5,o,0,2,2,x,x', 'basic, power chord, rock, blues'),
+        ('Dadd9', 'D', 4, '5,x,0,2,2,0,0,b', 'intermediate, rock, blues'),
+        ('D5/E', 'D', 5, '5,o,0,2,2,x,x', 'basic, power chord, rock, blues'),
         ('F#5', 'F#', 2, '0,1,3,3,x,x,x', 'basic, power chord, rock, blues'),
         ('Bsus4', 'B', 6, '7,0,2,2,2,x,x', 'intermediate, rock, blues'),
         ('Cadd9', 'C', 6, '0,o,2,x,o,2,o', 'intermediate, rock, blues'),
@@ -97,13 +97,47 @@ INSERT INTO chords (chord_name, notation, variation, chord_code, tag)
         ('Bmin7', 'Bm', 6, '7,0,2,0,0,0,0,b', 'intermediate, jazz, pop, indie, seventh'),
         ('E7II', 'E', 8, '5,x,2,1,2,0,o', 'intermediate, jazz, pop, indie'),
         ('Dmin13', 'Dm', 4, '5,x,0,2,0,1,2,b', 'intermediate, jazz, pop, indie'),
-        ('GMaj7/B', 'G', 9, '7,0,3,2,0,0,0,b', 'advanced, seventh');
-
-
-        
-
-
-
+        ('GMaj7/B', 'G', 9, '7,0,3,2,0,0,0,b', 'advanced, seventh'),
+        ('Amin/Maj7', 'Am', 8, '5,x,o,1,0,0,o', 'advanced, seventh, jazz'),
+        ('F#min/A', 'F#m', 5, '0,x,o,3,1,1,1,b', 'advanced'),
+        ('C#Maj', 'C#', 1, '4,x,0,2,2,2,0,b', 'advanced'),
+        ('F#min7', 'F#m', 6, '4,x,x,0,2,3,o', 'advanced, seventh'),
+        ('DMaj11', 'D', 6, '4,x,x,o,2,3,0', 'advanced'),
+        ('F#min/A', 'F#m', 6, '5,x,o,x,1,2,0', 'advanced'),
+        ('Eadd9', 'E', 9, '4,o,x,x,0,3,0,b', 'advanced'),
+        ('E7/D', 'E', 10, '4,x,x,o,0,1,0,b', 'advanced, seventh'),
+        ('F#5', 'F#', 3, '0,1,3,3,x,x,x', 'basic, beginner, power chord'),
+        ('G#5', 'G#', 2, '4,0,2,2,x,x,x', 'basic, beginner, power chord'),
+        ('F#min7/E (no third)', 'F#m', 7, '0,o,3,3,x,x,x', 'intermediate, seventh, no third'),
+        ('B5', 'B', 10, '0,x,1,3,3,x,x', 'basic, beginner, power chord'),
+        ('F#min9', 'F#m', 8, '2,0,2,0,0,0,2', 'advanced, jazz'),
+        ('C#7b9', 'C#', 2, '3,x,1,0,1,0,x', 'advanced, jazz, seventh'),
+        ('AMaj9', 'A', 7, '5,0,2,1,1,o,o', 'advanced, jazz'),
+        ('DMaj13', 'D', 7, '6,x,x,o,0,1,1', 'advanced, jazz'),
+        ('Bmin/D', 'Bm', 7, '2,x,x,o,2,1,0', 'intermediate'),
+        ('Bmin7', 'Bm', 8, '2,x,0,2,0,1,3', 'advanced, jazz, seventh'),
+        ('C#min7b5', 'C#m', 4, '4,x,0,1,0,1,x', 'advanced, seventh, jazz'),
+        ('DMaj7', 'D', 8, '5,x,0,2,1,2,0,b', 'advanced, jazz, seventh'),
+        ('Emin7', 'Em', 7, '7,x,0,2,0,1,0,b', 'advanced, jazz, seventh'),
+        ('Bb minor', 'Bbm', 1, '6,0,2,2,0,0,0,b', 'advanced'),
+        ('Bbmin/F', 'Bbm', 2, '0,0,0,2,2,1,0,b', 'advanced'),
+        ('Ebmin', 'Ebm', 1, '6,x,0,2,2,1,0,b', 'intermediate, barre'),
+        ('DbMaj', 'Db', 1, '4,x,0,2,2,2,0,b', 'intermediate, barre'),
+        ('GbMaj', 'Gb', 1, '2,0,2,2,1,0,0,b', 'intermediate, barre'),
+        ('Bbmin', 'Bbm', 3, '0,x,0,2,2,1,0,b', 'intermediate, barre'),
+        ('FMaj/A', 'F', 3, '0,x,o,2,1,0,0,b', 'intermediate, barre'),
+        ('AbMaj', 'Ab', 1, '4,0,2,2,1,0,0,b', 'intermediate, barre'),
+        ('EbMaj/G', 'Eb', 1, '3,0,x,x,0,1,0', 'intermediate'),
+        ('Gb7', 'Gb', 2, '2,0,2,0,1,0,0,b', 'intermediate, barre'),
+        ('Ebmin/Gb', 'Ebm', 2, '0,1,x,0,2,3,x', 'intermediate'),
+        ('Abmin', 'Abm', 1, '4,0,2,2,0,0,0,b', 'intermediate, barre'),
+        ('CbMaj', 'Cb', 1, '7,0,2,0,1,0,0,b', 'intermediate, barre'),
+        ('Ebmin7', 'Ebm', 3, '6,x,0,2,0,1,0,b', 'intermediate, barre, seventh'),
+        ('Bb7', 'Bb', 1, '6,0,2,0,1,0,0,b', 'advanced, barre, seventh'),
+        ('Db7', 'Db', 2, '4,x,0,2,0,2,0,b', 'advanced, barre, seventh'),
+        ('GbMaj7/Bb', 'Gb', 3, '4,2,x,0,2,2,x', 'advanced, jazz, seventh'),
+        ('Abmin/Cb', 'Abm', 2, '6,1,0,0,2,3,x,b', 'advanced'),
+        ('Abmin', 'Abm', 3, '4,0,x,2,0,o,x', 'intermediate');
 
 COMMIT;
 
