@@ -8,29 +8,29 @@ INSERT INTO chord_keys (tonic, second, third, fourth, fifth, sixth, seventh)
     VALUES
     ('C', 'Dm', 'Em', 'F', 'G', 'Am', 'Bdim'),
     ('Db', 'Ebm', 'Fm', 'Gb', 'Ab', 'Bbm', 'Cdim'),
-    ('D', 'Em', 'F#m', 'G', 'A', 'Bm', 'C#dim'),
+    ('D', 'Em', 'Fsharpm', 'G', 'A', 'Bm', 'Csharpdim'),
     ('Eb', 'Fm', 'Gm', 'Ab', 'Bb', 'Cm', 'Ddim'),
-    ('E', 'F#m', 'G#m', 'A', 'B', 'C#m', 'D#dim'),
+    ('E', 'Fsharpm', 'Gsharpm', 'A', 'B', 'Csharpm', 'Dsharpdim'),
     ('F', 'Gm', 'Am', 'Bb', 'C', 'Dm', 'Edim'),
-    ('F#', 'G#m', 'A#m', 'B', 'C#', 'D#m', 'Fdim'),
-    ('G', 'Am', 'Bm', 'C', 'D', 'Em', 'F#dim'),
+    ('Fsharp', 'Gsharpm', 'Asharpm', 'B', 'Csharp', 'Dsharpm', 'Fdim'),
+    ('G', 'Am', 'Bm', 'C', 'D', 'Em', 'Fsharpdim'),
     ('Ab', 'Bbm', 'Cm', 'Db', 'Eb', 'Fm', 'Gdim'),
-    ('A', 'Bm', 'C#m', 'D', 'E', 'F#m', 'G#dim'),
+    ('A', 'Bm', 'Csharpm', 'D', 'E', 'Fsharpm', 'Gsharpdim'),
     ('Bb', 'Cm', 'Dm', 'Eb', 'F', 'Gm', 'Adim'),
-    ('B', 'C#m', 'D#m', 'E', 'F#', 'G#m', 'A#dim'),
+    ('B', 'Csharpm', 'Dsharpm', 'E', 'Fsharp', 'Gsharpm', 'Asharpdim'),
 
     ('Cm', 'Ddim', 'Eb', 'Fm', 'Gm', 'Ab', 'Bb'),
-    ('C#m', 'D#dim', 'E', 'F#m', 'G#m', 'A', 'B'),
+    ('Csharpm', 'Dsharpdim', 'E', 'Fsharpm', 'Gsharpm', 'A', 'B'),
     ('Dm', 'Edim', 'F', 'Gm', 'Am', 'Bb', 'C'),
-    ('D#m', 'E#dim', 'F#', 'G#m', 'A#m', 'B', 'C#'),
-    ('Em', 'F#dim', 'G', 'Am', 'Bm', 'C', 'D'),
+    ('Dsharpm', 'Esharpdim', 'Fsharp', 'Gsharpm', 'Asharpm', 'B', 'Csharp'),
+    ('Em', 'Fsharpdim', 'G', 'Am', 'Bm', 'C', 'D'),
     ('Fm', 'Gdim', 'Ab', 'Bbm', 'Cm', 'Db', 'Eb'),
-    ('F#m', 'G#dim', 'A', 'Bm', 'C#m', 'D', 'E'),
+    ('Fsharpm', 'Gsharpdim', 'A', 'Bm', 'Csharpm', 'D', 'E'),
     ('Gm', 'Adim', 'Bb', 'Cm', 'Dm', 'Eb', 'F'),
-    ('G#m', 'A#dim', 'B', 'C#m', 'D#m', 'E', 'F#'),
+    ('Gsharpm', 'Asharpdim', 'B', 'Csharpm', 'Dsharpm', 'E', 'Fsharp'),
     ('Am', 'Bdim', 'C', 'Dm', 'Em', 'F', 'G'),
     ('Bbm', 'Cdim', 'Db', 'Ebm', 'Fm', 'Gb', 'Ab'),
-    ('Bm', 'C#dim', 'D', 'Em', 'F#m', 'G', 'A');
+    ('Bm', 'Csharpdim', 'D', 'Em', 'Fsharpm', 'G', 'A');
 
 
 COMMIT;
