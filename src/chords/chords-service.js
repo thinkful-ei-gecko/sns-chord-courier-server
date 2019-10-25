@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const ChordsService = {
   getAllChords(db) {
     return db
