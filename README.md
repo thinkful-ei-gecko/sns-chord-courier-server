@@ -9,6 +9,7 @@ This API was built to accompany the Chord Courier Client. This server is designe
 /api/chords/:key/:progression returns all chords in a given key and within a certain progression
 
 The live application can be found here: https://chord-courier.now.sh/
+
 The frontend client repo can be found here: https://github.com/thinkful-ei-gecko/sns-chord-courier-client
 
 ## Set up
