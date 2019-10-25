@@ -1,4 +1,3 @@
-
 const ChordsService = {
   getAllChords(db) {
     return db
