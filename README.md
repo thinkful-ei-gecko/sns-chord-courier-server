@@ -1,5 +1,7 @@
 # Chord Courier Server
 
+![](Chord-Courier-screenshot.png)
+
 This API was built to accompany the Chord Courier Client. This server is designed to deliver chords by musical key. Additionally, chords can be filtered down to provide common chord progressions. 
 
 /api/chords returns ALL ~250 chords in the database
